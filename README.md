@@ -118,7 +118,7 @@ Run a Mac with no display of its own — a Mac Studio or Mini on the go, or a la
 
 ## Installation
 
-- **Android**: [Get it on Google Play](https://play.google.com/store/apps/details?id=com.sidescreen.app) — updates install automatically. An `.apk` for sideloading is also attached to each [GitHub release](https://github.com/tranvuongquocdat/SideScreen/releases) (enable "Unknown sources" if needed).
+- **Android**: [Get it on Google Play](https://play.google.com/store/apps/details?id=com.sidescreen.app) — updates install automatically.
 - **macOS**: Download the `.dmg` from [**GitHub Releases**](https://github.com/tranvuongquocdat/SideScreen/releases), open it, drag Side Screen to Applications. Port forwarding over USB is handled automatically by the Mac app.
 
 > **⚠️ macOS Gatekeeper**

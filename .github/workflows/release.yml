@@ -200,12 +200,12 @@ jobs:
             ${{ steps.changelog.outputs.notes }}
 
             ### Downloads
-            | Platform | File |
-            |----------|------|
-            | macOS (Universal) | `SideScreen-${{ steps.version.outputs.version }}-mac-universal.dmg` |
-            | Android | `SideScreen-${{ steps.version.outputs.version }}-android.apk` |
+            | Platform | Get it |
+            |----------|--------|
+            | macOS (Universal) | `SideScreen-${{ steps.version.outputs.version }}-mac-universal.dmg` below |
+            | Android | [Google Play](https://play.google.com/store/apps/details?id=com.sidescreen.app) |
+          # The Android APK/AAB stay workflow artifacts only: users install from Google Play.
           files: |
             artifacts/macos-dmg/*.dmg
-            artifacts/android-apk/*.apk
           draft: false
           prerelease: false
